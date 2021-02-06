@@ -19,6 +19,9 @@
         justify-content: space-around;
         align-items: center;
     }
+    button[type="submit"]{
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 780px){
     .cont-wrapper{
