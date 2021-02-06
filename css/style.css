@@ -64,5 +64,10 @@ button[type="submit"]{
     font-size: 14px;
     color:white;
     font-family: 'Poppins-Regular';
+    cursor: pointer;
+    transition: 0.3s;
 }
-button[type="submit"]:focus{ outline: none; }
+button[type="submit"]:focus{ 
+    transform: scale(1.01);
+    outline: none; 
+}
